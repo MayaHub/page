@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    width: 400px;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+
+    padding: 5px;
+    border: 5px solid red;
+}
+
+#side {
+    margin: 20px;
+    /* border: 3px solid green; */
+    padding: 0 10px;
+
+}
+
+span {
+    color: #007185;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 30px;
+    color: #121212;
+}
+
+.description {
+    font-size: 25px;
+    color: #121212;
+
+}
